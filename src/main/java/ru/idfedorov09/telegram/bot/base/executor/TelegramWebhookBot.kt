@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.ResponseStatus
 import org.telegram.telegrambots.meta.api.objects.Update
-import ru.idfedorov09.telegram.bot.base.data.GlobalConstants.WEBHOOK_PATH
+import ru.idfedorov09.telegram.bot.base.domain.GlobalConstants.WEBHOOK_PATH
 import ru.idfedorov09.telegram.bot.base.util.OnReceiver
 
 @Controller

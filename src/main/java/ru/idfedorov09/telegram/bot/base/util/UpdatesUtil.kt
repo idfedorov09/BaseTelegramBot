@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component
 import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.meta.api.objects.User
 import ru.idfedorov09.telegram.bot.base.config.BotContainer
-import ru.idfedorov09.telegram.bot.base.service.RedisService
+import ru.idfedorov09.telegram.bot.base.domain.service.RedisService
 import java.util.regex.Pattern
 
 @Component

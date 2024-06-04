@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import redis.clients.jedis.Jedis;
-import ru.idfedorov09.telegram.bot.base.data.model.RedisServerData;
+import ru.idfedorov09.telegram.bot.base.util.RedisServerData;
 import ru.idfedorov09.telegram.bot.base.util.RedisUtil;
 
 @Configuration

@@ -1,4 +1,4 @@
-package ru.idfedorov09.telegram.bot.base.data.model
+package ru.idfedorov09.telegram.bot.base.util
 
 data class RedisServerData(
     val port: Int,

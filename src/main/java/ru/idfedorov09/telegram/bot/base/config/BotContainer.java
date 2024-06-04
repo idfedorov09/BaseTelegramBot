@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-import static ru.idfedorov09.telegram.bot.base.data.GlobalConstants.QUEUE_PRE_PREFIX;
+import static ru.idfedorov09.telegram.bot.base.domain.GlobalConstants.QUEUE_PRE_PREFIX;
 
 @Component
 @PropertySource("classpath:application.properties")

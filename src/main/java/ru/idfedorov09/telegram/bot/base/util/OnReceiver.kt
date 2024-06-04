@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component
 import org.telegram.telegrambots.bots.TelegramLongPollingBot
 import org.telegram.telegrambots.meta.api.objects.Update
 import ru.idfedorov09.telegram.bot.base.controller.UpdatesController
-import ru.idfedorov09.telegram.bot.base.service.RedisService
-import ru.idfedorov09.telegram.bot.base.service.UserQueue
+import ru.idfedorov09.telegram.bot.base.domain.service.RedisService
+import ru.idfedorov09.telegram.bot.base.domain.service.UserQueue
 import java.util.concurrent.Executors
 
 @Component

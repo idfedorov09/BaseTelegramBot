@@ -1,4 +1,4 @@
-package ru.idfedorov09.telegram.bot.base.service
+package ru.idfedorov09.telegram.bot.base.domain.service
 
 import com.google.gson.Gson
 import org.springframework.stereotype.Service
